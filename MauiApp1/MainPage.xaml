@@ -13,13 +13,19 @@
                 HeightRequest="185"
                 Aspect="AspectFit"
                 SemanticProperties.Description="imagem de uma moeda, lado cara" />
+            <Image
+                x:Name="imagemCoroa"
+                Source="coroa.jpg"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="imagem de uma moeda, lado coroa" />
             <Picker
                 x:Name="selecaoPiker"
                 Title="Selecione a moeda">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
                         <x:String>Cara</x:String>
-                        <x:String>COroa</x:String>
+                        <x:String>Coroa</x:String>
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
